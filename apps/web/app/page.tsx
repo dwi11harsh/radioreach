@@ -1,9 +1,11 @@
-import { Button } from "@repo/ui";
+import { Topbar } from "@repo/ui";
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="min-h-screen min-w-full ">
-      <Button />
+      <Topbar />
     </main>
   );
-}
+};
+
+export default Home;

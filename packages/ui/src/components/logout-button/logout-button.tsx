@@ -1,4 +1,5 @@
 import React from "react";
+import { LoginLogoutState } from "./login-state";
 
 export const LogoutButton = () => {
   return (
@@ -9,7 +10,7 @@ export const LogoutButton = () => {
         </svg>
       </div>
       <div className="absolute right-5 transform translate-x-full opacity-0 text-white text-lg font-semibold transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-        Logout
+        <LoginLogoutState />
       </div>
     </button>
   );
