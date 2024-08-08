@@ -6,7 +6,7 @@ import { cn, Navbar, Providers } from "@repo/ui";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Radioreach",
+  title: "Radio Reach Network",
   description: "Dashboard UI",
 };
 

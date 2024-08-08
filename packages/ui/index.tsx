@@ -5,6 +5,8 @@ export * from "./src/components/theme-switch";
 export * from "./src/components/radio-station";
 export * from "./src/components/select-component";
 export * from "./src/components/topbar";
+export * from "./src/components/staticbar";
+export * from "./src/components/current-table-name";
 
 export * from "./src/providers";
 
