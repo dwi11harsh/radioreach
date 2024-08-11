@@ -14,9 +14,9 @@ export const SelectedRadioStation = () => {
         className="hidden sm:block w-11 h-11 absolute right-0 -rotate-180 stroke-neutral-500 dark:stroke-neutral-400 group-hover:rotate-0 duration-700"
       >
         <path
-          stroke-width="3"
-          stroke-linejoin="round"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinejoin="round"
+          strokeLinecap="round"
           fill="none"
           d="M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z"
           className="svg-stroke-primary"

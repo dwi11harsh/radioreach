@@ -3,7 +3,7 @@ import { LogoutButton, ThemeSwitch, SelectedRadioStation } from "@repo/ui";
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between min-w-full sticky top-0 z-50 bg-inherit dark:bg-inherit">
+    <nav className="flex items-center justify-between min-w-full bg-inherit dark:bg-inherit">
       <div className="flex items-center justify-center m-3">
         {/* <Image
           src="/radioreach.svg"

@@ -7,9 +7,13 @@ export * from "./src/components/select-component";
 export * from "./src/components/topbar";
 export * from "./src/components/staticbar";
 export * from "./src/components/current-table-name";
+export * from "./src/components/searchbar";
+
+// all the tables
+export * from "./src/components/tables";
 
 export * from "./src/providers";
 
 export * from "./lib/utils";
 
-// export * from "./src/store";
+export const BASE_URL = "https://api.musicmonitor.io";

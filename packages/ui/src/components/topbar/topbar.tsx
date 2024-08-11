@@ -1,6 +1,7 @@
 import { TableOptions } from "@repo/ui/types";
 import { TopbarButton } from "./topbar-button";
 import { TopbarSelect } from "./topbar-select";
+import { cn } from "@repo/ui";
 
 export const Topbar = () => {
   const receiver_data: TableOptions = "Receiver Data";
@@ -9,8 +10,10 @@ export const Topbar = () => {
   const programming_assist: TableOptions = "Programming Assist";
 
   return (
-    <>
-      <div className="sticky mt-3 mx-3">
+    <div className={cn("bg-inherit w-full")}>
+      {" "}
+      {/** "sticky top-16 z-40" */}
+      <div className="mt-3 mx-3">
         <div className="sm:hidden ml-6 mr-9">
           <TopbarSelect
             receiver_data={receiver_data}
@@ -28,6 +31,6 @@ export const Topbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
